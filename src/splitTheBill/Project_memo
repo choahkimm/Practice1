@@ -1,0 +1,9 @@
+
+1/N 정산을 자동으로 계산해주는 프로그램을 개발하고자 함.
+
+- Java GUI 실습 겸 Java Swing을 사용
+- 효과적인 코드 관리를 위하여 MVC 패턴 적용
+
+-ViewSB : View 클래스. 사용자 인터페이스(UI) 제공
+-ControllerSB : Controller 클래스. View와 Model 사이에 위치. 사용자 정보 입력-> Model 처리 -> View
+-ModelSB : Model 클래스. 프로그램의 로직과 데이터 연산
